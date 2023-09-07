@@ -11,5 +11,6 @@ while True:
     if choice == 1:
         register()
     if choice == 2:
-        login()
+        my_user = str(input("enter your username: "))
+        login(my_user)
     
