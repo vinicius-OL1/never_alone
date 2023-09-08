@@ -1,6 +1,7 @@
 import menu
 from register import register
 from login import login
+from sortition import sortition
 import requests
 import json
 
@@ -12,5 +13,8 @@ while True:
         register()
     if choice == 2:
         my_user = str(input("enter your username: "))
-        login(my_user)
-    
+        my_password = str(input("enter your password: "))
+        login(my_user,my_password)
+    if choice == 3:
+        print ("sortition...")
+        sortition()
