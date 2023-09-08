@@ -16,7 +16,7 @@ def sortition():
                    name: {dic_req[random_user]['info']['name']}
                    telephone: {dic_req[random_user]['info']['telephone']}
                    email: {dic_req[random_user]['info']['email']}
-\n""")
+                    \n""")
             break
             
         
