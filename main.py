@@ -4,11 +4,13 @@ from login import login
 from sortition import sortition
 import requests
 import json
-
+#variable for save the link of the database
 link = "https://never0alone-fa252-default-rtdb.firebaseio.com/"
+#looping main
 while True:
     print (menu.options)
     choice = int(input("choose an option: "))
+    #primary condition
     if choice == 1:
         register()
     if choice == 2:
