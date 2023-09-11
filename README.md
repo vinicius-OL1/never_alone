@@ -5,7 +5,7 @@ any questions about the project or bug reports send them at [@vinycius_0l](https
 
 ## how to use
 first check if you have python 3 installed
-if not, just run -sudo apt-get install python3
+if not, just run ~~~javascript-sudo apt-get install python3
 also check if the json and request library is installed
 
 ### how it works
